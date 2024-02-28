@@ -3,4 +3,5 @@
 Valor_produto = float(input('Digite o valor do produto '))
 desconto = 5 
 valor_com_desconto = (Valor_produto*desconto)/100
-print ('Valor do produto {}, valor do desconto {}, total de desconto {}'.format(Valor_produto, desconto, valor_com_desconto))
+valor_total = Valor_produto-valor_com_desconto
+print ('Valor do produto {}, desconto de {}%, valor total com desconto é {}, '.format(Valor_produto, desconto, valor_total))
