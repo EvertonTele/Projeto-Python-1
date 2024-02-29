@@ -5,3 +5,4 @@ valor_diária = 60
 valor_km = 0.15
 total = (valor_km*km_pecorridos) + valor_diária*dias_corrido
 print ('O total da sua fatura será de {:.2f}'. format(total))
+
