@@ -3,6 +3,6 @@
 import math 
 numero = int(input('Digite um numero '))
 porção = math.sqrt(numero)
-print('O numreo inteiro é {:.2f}'.format(math.floor(num, porção)))
+print('O numreo inteiro é {:.2f}'.format(math.floor(numero, porção)))
 
 
