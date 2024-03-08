@@ -5,3 +5,5 @@ seno = math.sin
 cosseno = math.cos
 tangente = math.tan
 print('O valor de Seno é {}, Cosseno {} e tangente {}'.format(seno, cosseno, tangente))
+
+print('o valor tangente {}'.format(tangente))
