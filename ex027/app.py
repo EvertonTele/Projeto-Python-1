@@ -3,10 +3,10 @@
 # primeiro = Ana 
 # Ultimo = Souza 
 
-nome = str(input('Digite seu nome completo '))
-nome1 = str.split(nome)
-print('primeiro nome', nome1[0]  )
-print()
+# nome = str(input('Digite seu nome completo '))
+# nome1 = str.split(nome)
+# print('primeiro nome', nome1[0]  )
+# print()
 
 
 
