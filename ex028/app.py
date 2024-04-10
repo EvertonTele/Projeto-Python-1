@@ -17,7 +17,3 @@ if digite == n_aleaorio:
 else:
     print('Tente novamente, Boa sorte!  ')
 
-# if == n_aleaorio
-#     print('Você acertou o numero  ')
-# else:
-#     print('Você acertou o numero  ')
