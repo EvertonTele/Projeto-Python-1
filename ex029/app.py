@@ -5,12 +5,13 @@
 # A multa vai custar R$7,00 por cada KM acima do limite. 
 
 Velocidade = float(input('Digite a velocidade '))
-valor_multa = (Velocidade- 80) * 7.00
+valor_multa = (Velocidade - 80) * 7.00
 if Velocidade > 80:
     print('Você foi multado')
     print('A multa custa R$7,00 por KM acima do limite. ')
-    print('O valor da multa é R${}'.format(valor_multa))
+    print('O valor da multa é R${:.2f}'.format(valor_multa))
 else:
     print('Voce não foi multado...')
+
 
     

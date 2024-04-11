@@ -10,7 +10,7 @@ numero3 = int('4')
 numero4 = int('5')
 n_aleaorio = [numero, numero1, numero2, numero3, numero4]
 shuffle(n_aleaorio)
-digite = int(input('Digite um núnmero: '))
+digite = int(input('Digite um núnmero de 1 a 5: '))
 print('o número sorteado é {} '.format(n_aleaorio [0]))
 if digite == n_aleaorio:
     print('Você acertou o numero Parabéns!  ')
