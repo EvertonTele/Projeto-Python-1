@@ -6,16 +6,3 @@ print('O numreo inteiro é {} e a sua porção inteira será {}'.format(numero, 
 
 
 
-# # Outra forma de se fazer
-
-# from math import trunc 
-# numero = float(input('Digite um numero '))
-# print('O numreo inteiro é {} e a sua porção inteira será {}'.format(numero, trunc(numero)))
-
-
-# A Forma que eu tinha feito 
-
-# import math 
-# numero = int(input('Digite um numero '))
-# porção = math.sqrt(numero)
-# print('O numreo inteiro é {:.2f}'.format(math.floor(numero, porção)))

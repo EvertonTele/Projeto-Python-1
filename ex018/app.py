@@ -6,7 +6,6 @@
 # tangente = math.tan(hipotenusa)
 # print('O valor de Seno é {:.2f}, Cosseno {:.2f} e tangente {:.2f}'.format(seno, cosseno, tangente))
 
-# Reposta do exercicio 
 from math import radians, sin, cos, tan
 angulo = float(input('Digite o angulo'))
 seno = sin(radians(angulo))

@@ -6,12 +6,5 @@ print('Silva'in nome1)
 
 
 
-# Resposta do exercicio 
-# nome = str(input('Qual o seu nome completo ')).strip()
-# print ('Seu nome tem Silva '.format(nome[:6] == 'Silva'))
-
-# exmplo 2
-# nome = str(input('Qual o seu nome completo ')).strip()
-# print ('Seu nome tem Silva {}'.format('Silva' in nome.lower()))
 
 

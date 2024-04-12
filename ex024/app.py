@@ -5,8 +5,6 @@ cidade1 = str(cidade)
 print('Santos'in cidade)
 
 
-# # resposta exercicio:
-# cid = str(input('Em que cidade você nasceu? ')).strip()
-# print(cid[:5].upper() == 'SANTO')
+
 
 

@@ -17,3 +17,4 @@ if digite == n_aleaorio:
 else:
     print('Tente novamente, Boa sorte!  ')
 
+
