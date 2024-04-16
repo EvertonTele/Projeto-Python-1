@@ -10,6 +10,6 @@ salario_mai = (salario*menor)/100
 sala_n = salario_meno+salario
 sala_nm = salario_mai+salario
 if salario <= 1250:
-    print('Seu salario é R${:.2f} '.format(sala_n))
+    print('Seu salario é R${:.2f} '.format(sala_nm))
 else:
-    print('Seu salario é R${:.2f}'.format(sala_nm))
+    print('Seu salario é R${:.2f}'.format(sala_n))
