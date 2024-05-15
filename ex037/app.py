@@ -9,7 +9,7 @@ print('Escolha a base de conversão')
 print('1 - Binário ')
 print('2 - Octal ')
 print('3 - Hexadecimal ')
-Opcao = str('Digite a opção desejada')
+Opcao = str(input('Digite a opção desejada'))
 
 if Opcao == 1:
     print('O número é binário', bin(numero_conversão))
@@ -17,3 +17,6 @@ elif Opcao == 2:
     print('é um número octal! ', oct(numero_conversão))
 elif Opcao == 3:
     print ('É um núemro exadecimal! ', hex(numero_conversão))
+
+
+
