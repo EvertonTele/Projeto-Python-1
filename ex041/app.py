@@ -13,11 +13,11 @@ idade = ano_atual - nascimento
 print('Você tem {} anos! '.format(idade))
 if idade > 20:
     print ('Você pertence a classe Master ! ')
-elif idade <=20:
+elif idade >=20:
     print('Você faz parte da classe Senior! ')
-elif idade <19:
+elif idade >=19:
     print('Você faz parte da classe junior! ')
-elif idade <=14:
+elif idade >=14:
     print('Vocé faz parte da classe Infantil! ')
 else:
     print('Você pertence a classe Mirim! ')
