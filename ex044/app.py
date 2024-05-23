@@ -25,8 +25,5 @@ else:
     valor_final = Valor* 1.20
     print('Você escolheu a forma de pagamento acima de 3x no cartão, o valor a ser cobrado é de R${}'.format(valor_final))
 
-# Avista = (10/100 )* Valor_poduto
-# avista_cartão = (5/100)*Valor_poduto
-# sem_descont = 1*Valor_poduto
-# cartao3x = 0.20*Valor_poduto
+
 
