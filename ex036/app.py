@@ -6,12 +6,17 @@
 # salario = int(input('Digite seu salário'))
 # # prazo = int(input('Prazo de Pagamento'))
 
-imovel = float(input('Qual o valor da sua casa?'))
-salario = float(input('Digite seu salário'))
-prazo = float(input('Prazo de Pagamento'))
-parcela =  imovel / prazo
-prestacao_mensal = salario + salario *0.30
-if parcela >= prestacao_mensal:
-    print(f'a parcela não pode exceder 30 % do seu salário, valor da parcela {parcela:.2f}')
+imovel = float(input('Qual o valor da sua casa: R$ '))
+salario = float(input('Digite seu salário: R$ '))
+prazo = float(input('Prazo de Pagamento? '))
+parcela =  imovel /(prazo*12) 
+prestacao_mensal = salario *30 / 100
+print('Para pagar uma casa de R${:.2f} em {}anos'.format(imovel, prazo), end='')
+print('a prestação seá de R${:.2f}'.format(parcela))
+if parcela <= prestacao_mensal:
+    print('Parecla CONCEDIDA! ')
 else:
-    print(f' valor da parcela é de {parcela:.2f}')
+    print('Parcela NEGADA! ')
+
+
+
