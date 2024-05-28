@@ -11,8 +11,12 @@ r1 = float(input('Primeiro segmento:'))
 r2 = float(input('Segundo segmento:'))
 r3 = float(input('Terceiro segmento: '))
 if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
-    print('O triângulo é um Equilatero, todos os lados são iguais.  ')
-elif r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
-    print('O triângylo é um Isóceles dois lados apenas são iguais. ')
+    print('O triângulo é um Equilatero, todos os lados são iguais.  ', end='')
+    if r1 == r2 and r2 == r3: # condição aninhada.
+        print('EQUILÀTERO')
+    elif r1 != r2 != r3 != r1:  # != Diferente 
+        print ('Escaleno ')
+    else:
+        print('ISÒCELES')
 else:
-    print('O triangulo não foi formado é um Escaleno!  ')
+    print('Os Seguimentos acima Não Podem FORMAR triangulo ')

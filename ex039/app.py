@@ -10,10 +10,12 @@ from datetime import date
 ano_taual = date.today().year
 data = int(input('Ano de Nascimento: '))
 idade = ano_taual - data
-tempo = data - idade
+tempo = idade - 18
+tem = 18 - idade
 print('Ano de nascimento {}'.format(idade))
 if idade <=17:
     print('Você ainda vai se alistar no serviço militar! ')
+    print('Falta {} anos para o seu alistamento '.format(tem))
 elif idade ==18:
     print('Está na hora de se alista ao servço militar! ')
 else:
