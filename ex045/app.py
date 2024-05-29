@@ -1,8 +1,13 @@
 # Crie um programa que faça o computador jogar jokenpô com você 
-print('''SUAS OPÇÔES 
-[0] PEDRA
-[1] PAPEL
-[2] TESOURA''')
+from random import randint
+itens = ('PEDRA', 'PAPEL','TESOURA')
+computador = randint (0,2) # randint faz o computador escolher um número desejado. 
 jogada = int(input('Qual o número da jogada? '))
-('=20')
+print('='*20)
+print('''JO
+KEN
+PO!!!''')
+print('='*20)
+print('O computador mandou escolheu {}'.format(itens, [computador]))
+
 
